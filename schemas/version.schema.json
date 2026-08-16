@@ -19,7 +19,7 @@
       "required": ["format", "url", "sha256", "size"],
       "properties": {
         "format": { "const": "boboplugin" },
-        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://raw\\.githubusercontent\\.com/" },
         "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
         "size": { "type": "integer", "minimum": 1 }
       },

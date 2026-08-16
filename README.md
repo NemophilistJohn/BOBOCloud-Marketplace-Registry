@@ -2,7 +2,7 @@
 
 This repository is the signed-by-hash catalog for BOBOCloud plugin packages.
 It contains metadata and immutable package-version descriptors, not executable
-plugin code. Clients must download an artifact over HTTPS and verify its
+plugin code. Clients download an artifact only from the approved `raw.githubusercontent.com` HTTPS host and verify its
 SHA-256 before installation.
 
 ## Layout
@@ -24,13 +24,13 @@ a new semantic version.
 ## Publishing Rules
 
 - Package IDs use a lowercase `publisher.name` namespace.
-- Every artifact uses HTTPS and a SHA-256 digest.
+- Every artifact uses the approved `raw.githubusercontent.com` HTTPS host and a SHA-256 digest.
 - Package indexes pin each version descriptor by digest.
 - Shards pin each package index by digest, and the root pins each shard.
 - `scripts/validate-registry.mjs` must pass before a change is merged.
 
 ## BOBOCloud 插件市场索引
 
-本仓库保存可校验的插件目录和版本描述，不直接托管可执行插件代码。客户端必须经 HTTPS 下载工件，并在安装前校验 SHA-256。
+本仓库保存可校验的插件目录和版本描述，不直接托管可执行插件代码。客户端只从受批准的 `raw.githubusercontent.com` HTTPS 主机下载工件，并在安装前校验 SHA-256。
 
 目录采用“根索引 → 分片 → 单插件索引 → 不可变版本描述”结构。发布新版本只更新对应插件和分片；历史版本不改写，如需修复则发布新的语义化版本。

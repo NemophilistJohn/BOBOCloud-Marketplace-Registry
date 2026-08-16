@@ -62,7 +62,7 @@ async function validateVersion(id, version, record) {
   assertObject(descriptor.artifact, versionPath + ' artifact');
   if (descriptor.artifact.format !== 'boboplugin') fail(versionPath + ' must describe a .boboplugin artifact.');
   assertString(descriptor.artifact.url, versionPath + ' artifact URL');
-  if (!descriptor.artifact.url.startsWith('https://')) fail(versionPath + ' artifact URL must use HTTPS.');
+  if (!descriptor.artifact.url.startsWith('https://raw.githubusercontent.com/')) fail(versionPath + ' artifact URL must use the approved GitHub Raw host.');
   assertDigest(descriptor.artifact.sha256, versionPath + ' artifact digest');
   if (!Number.isSafeInteger(descriptor.artifact.size) || descriptor.artifact.size <= 0) fail(versionPath + ' artifact size must be a positive integer.');
 }
@@ -83,6 +83,11 @@ async function validatePackage(entry) {
 
 const registry = await readJson('registry.json');
 if (registry.schemaVersion !== 1 || registry.registryId !== 'bobocloud.marketplace') fail('Root registry identity is invalid.');
+if (!registry.policy || registry.policy.artifactProtocol !== 'https' || registry.policy.artifactDigest !== 'sha256' ||
+    registry.policy.immutableVersionDocuments !== true || !Array.isArray(registry.policy.artifactHosts) ||
+    registry.policy.artifactHosts.length !== 1 || registry.policy.artifactHosts[0] !== 'raw.githubusercontent.com') {
+  fail('Root registry artifact policy is invalid.');
+}
 if (!Array.isArray(registry.shards) || registry.shards.length === 0) fail('Root registry has no shards.');
 const ids = new Set();
 for (const shardEntry of registry.shards) {

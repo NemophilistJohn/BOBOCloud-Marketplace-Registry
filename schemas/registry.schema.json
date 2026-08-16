@@ -9,7 +9,23 @@
     "registryId": { "const": "bobocloud.marketplace" },
     "updatedAt": { "type": "string", "format": "date-time" },
     "format": { "type": "object" },
-    "policy": { "type": "object" },
+    "policy": {
+      "type": "object",
+      "required": ["packageIdPattern", "artifactProtocol", "artifactHosts", "artifactDigest", "immutableVersionDocuments"],
+      "properties": {
+        "packageIdPattern": { "type": "string" },
+        "artifactProtocol": { "const": "https" },
+        "artifactHosts": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "const": "raw.githubusercontent.com" }
+        },
+        "artifactDigest": { "const": "sha256" },
+        "immutableVersionDocuments": { "const": true }
+      },
+      "additionalProperties": false
+    },
     "shards": {
       "type": "array",
       "items": {
