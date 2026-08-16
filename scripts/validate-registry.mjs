@@ -29,7 +29,14 @@ async function readJson(relative) {
 async function digest(relative) {
   const normalized = safeRelative(relative, 'Digest path');
   const source = await fs.readFile(path.join(root, ...normalized.split('/')));
-  return crypto.createHash('sha256').update(source).digest('hex');
+  // Registry metadata is committed as UTF-8 JSON. Normalize checkout line
+  // endings so an index validated on Windows hashes the same canonical content
+  // as a GitHub raw download or a Linux checkout. Binary plugin artifacts are
+  // not part of this metadata chain and always use their literal bytes.
+  const canonical = normalized.endsWith('.json')
+    ? Buffer.from(source.toString('utf8').replace(/\r\n/g, '\n'), 'utf8')
+    : source;
+  return crypto.createHash('sha256').update(canonical).digest('hex');
 }
 
 function assertDigest(value, label) {
