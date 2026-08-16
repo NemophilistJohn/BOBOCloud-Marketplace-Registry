@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "registryId": "bobocloud.marketplace",
+  "updatedAt": "2026-08-17T03:51:47.8339895+08:00",
+  "format": {
+    "shardPath": "indexes/<shard>.json",
+    "packagePath": "packages/<publisher>/<name>/index.json",
+    "versionPath": "packages/<publisher>/<name>/versions/<semver>.json"
+  },
+  "policy": {
+    "packageIdPattern": "^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$",
+    "artifactProtocol": "https",
+    "artifactDigest": "sha256",
+    "immutableVersionDocuments": true
+  },
+  "shards": [
+    {
+      "id": "official",
+      "path": "indexes/official.json",
+      "sha256": "79e483cc556c36dea6a81634bc9c46e2a4542da907952630a7a9fc3e4076220a",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/NemophilistJohn/BOBOCloud-Marketplace-Registry/schemas/version.schema.json",
+  "title": "BOBOCloud Marketplace Immutable Version Descriptor",
+  "type": "object",
+  "required": ["schemaVersion", "id", "version", "publishedAt", "engines", "artifact", "source", "permissions", "locales"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" },
+    "version": { "type": "string", "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-[0-9A-Za-z.-]+)?$" },
+    "publishedAt": { "type": "string", "format": "date-time" },
+    "engines": {
+      "type": "object",
+      "required": ["bobocloud", "pluginApi"],
+      "additionalProperties": { "type": "string" }
+    },
+    "artifact": {
+      "type": "object",
+      "required": ["format", "url", "sha256", "size"],
+      "properties": {
+        "format": { "const": "boboplugin" },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "size": { "type": "integer", "minimum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["repository", "ref"],
+      "properties": {
+        "repository": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "ref": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "permissions": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "locales": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+  },
+  "additionalProperties": false
+}

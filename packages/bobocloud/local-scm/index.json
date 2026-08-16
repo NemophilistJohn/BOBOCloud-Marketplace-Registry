@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bobocloud.local-scm",
+  "publisher": "bobocloud",
+  "name": "local-scm",
+  "summary": {
+    "displayName": {
+      "en": "BOBOCloud Local Source Control",
+      "zh-CN": "BOBOCloud 本地源代码管理",
+      "ja": "BOBOCloud ローカルソース管理"
+    },
+    "description": {
+      "en": "Official local-workspace source-control integration.",
+      "zh-CN": "官方本地工作区源代码管理集成。",
+      "ja": "公式のローカルワークスペース用ソース管理統合です。"
+    },
+    "categories": [
+      "source-control"
+    ]
+  },
+  "latest": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "path": "packages/bobocloud/local-scm/versions/1.0.0.json",
+      "sha256": "3b704370263b65e649bea91a7d885661dcfb40273f5ae9bd8064f5ec6ae62d00"
+    }
+  }
+}
