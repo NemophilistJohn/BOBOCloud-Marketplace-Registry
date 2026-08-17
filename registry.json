@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "registryId": "bobocloud.marketplace",
-  "updatedAt": "2026-08-17T18:24:00+08:00",
+  "updatedAt": "2026-08-17T20:00:00+08:00",
   "format": {
     "shardPath": "indexes/<shard>.json",
     "packagePath": "packages/<publisher>/<name>/index.json",
@@ -20,7 +20,7 @@
     {
       "id": "official",
       "path": "indexes/official.json",
-      "sha256": "0b44798f54e663d6faa114d9d8ebc850d4f70c708f317a63b227663007d53263",
+      "sha256": "8976d4e5d6fbf412f020436774933d46e9b0d8579beb20f85c37f704956d1bba",
       "count": 1
     }
   ]
