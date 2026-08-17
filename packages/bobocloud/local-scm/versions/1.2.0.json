@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "bobocloud.local-scm",
+  "version": "1.2.0",
+  "publishedAt": "2026-08-17T18:24:00+08:00",
+  "engines": {
+    "bobocloud": ">=2.6.0 <3.0.0",
+    "pluginApi": "^1.2.0"
+  },
+  "artifact": {
+    "format": "boboplugin",
+    "url": "https://raw.githubusercontent.com/NemophilistJohn/BOBOCLOUD-Compiler-Git-Integration-Plugin-Official-/v1.2.0/artifacts/bobocloud.local-scm-1.2.0.boboplugin",
+    "sha256": "c624c735123714a0a12bcb071e400ae692300b2aade18144f47b20aad86f8bc6",
+    "size": 61155
+  },
+  "source": {
+    "repository": "https://github.com/NemophilistJohn/BOBOCLOUD-Compiler-Git-Integration-Plugin-Official-",
+    "ref": "v1.2.0"
+  },
+  "permissions": [
+    "commands.register",
+    "sourceControl.register",
+    "fileDecorations.scm",
+    "scm.git.read",
+    "scm.git.write"
+  ],
+  "locales": [
+    "en",
+    "zh-CN",
+    "ja"
+  ]
+}
