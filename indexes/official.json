@@ -5,8 +5,8 @@
     {
       "id": "bobocloud.local-scm",
       "path": "packages/bobocloud/local-scm/index.json",
-      "latest": "1.0.0",
-      "sha256": "92f74ebb090fd5ef11f32201aa45a0689dc2c61b4c504b22a787af10c98dbff8"
+      "latest": "1.1.0",
+      "sha256": "7489927fecbb9f94a601ec41bcea3480ba79bcff47eef83191a3812d496c098f"
     }
   ]
 }
