@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bobocloud.document-preview",
+  "publisher": "bobocloud",
+  "name": "document-preview",
+  "summary": {
+    "displayName": {
+      "en": "BOBOCloud Document Preview",
+      "zh-CN": "BOBOCloud 文档预览",
+      "ja": "BOBOCloud ドキュメントプレビュー"
+    },
+    "description": {
+      "en": "Official isolated previews for PDF, Markdown, CSV/TSV, and XLSX-family workbooks.",
+      "zh-CN": "官方隔离式 PDF、Markdown、CSV/TSV 与 XLSX 系列工作簿预览。",
+      "ja": "PDF、Markdown、CSV/TSV、XLSX 系ワークブック向けの公式分離プレビューです。"
+    },
+    "categories": [
+      "document-preview",
+      "productivity"
+    ]
+  },
+  "latest": "1.0.1",
+  "versions": {
+    "1.0.1": {
+      "path": "packages/bobocloud/document-preview/versions/1.0.1.json",
+      "sha256": "7bd6af8b02e6f93ffb95ad8177b43ff283140965f1373363fba4cf8f27111b1d"
+    }
+  }
+}

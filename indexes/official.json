@@ -3,6 +3,12 @@
   "id": "official",
   "packages": [
     {
+      "id": "bobocloud.document-preview",
+      "path": "packages/bobocloud/document-preview/index.json",
+      "latest": "1.0.1",
+      "sha256": "9663b97ab46d08041a4d048415d9c230bd5e629eb6d5506b89a29d19f2bf9427"
+    },
+    {
       "id": "bobocloud.local-scm",
       "path": "packages/bobocloud/local-scm/index.json",
       "latest": "1.2.1",
