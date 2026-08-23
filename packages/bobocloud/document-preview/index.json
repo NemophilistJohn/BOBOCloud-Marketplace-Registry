@@ -10,20 +10,24 @@
       "ja": "BOBOCloud ドキュメントプレビュー"
     },
     "description": {
-      "en": "Official isolated previews for PDF, Markdown, CSV/TSV, and XLSX-family workbooks.",
-      "zh-CN": "官方隔离式 PDF、Markdown、CSV/TSV 与 XLSX 系列工作簿预览。",
-      "ja": "PDF、Markdown、CSV/TSV、XLSX 系ワークブック向けの公式分離プレビューです。"
+      "en": "Official isolated previews for documents, data files, images, notebooks, and ZIP-based packages.",
+      "zh-CN": "官方隔离式文档、数据文件、图片、Notebook 与 ZIP 系列软件包预览。",
+      "ja": "文書、データファイル、画像、Notebook、ZIP ベースのパッケージ向け公式分離プレビューです。"
     },
     "categories": [
       "document-preview",
       "productivity"
     ]
   },
-  "latest": "1.0.1",
+  "latest": "1.1.0",
   "versions": {
     "1.0.1": {
       "path": "packages/bobocloud/document-preview/versions/1.0.1.json",
       "sha256": "7bd6af8b02e6f93ffb95ad8177b43ff283140965f1373363fba4cf8f27111b1d"
+    },
+    "1.1.0": {
+      "path": "packages/bobocloud/document-preview/versions/1.1.0.json",
+      "sha256": "5ca2cf57caabff024457387421810792ad03f6bd39a28a4579215a0c08366e79"
     }
   }
 }

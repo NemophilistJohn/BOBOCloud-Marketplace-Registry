@@ -5,8 +5,8 @@
     {
       "id": "bobocloud.document-preview",
       "path": "packages/bobocloud/document-preview/index.json",
-      "latest": "1.0.1",
-      "sha256": "9663b97ab46d08041a4d048415d9c230bd5e629eb6d5506b89a29d19f2bf9427"
+      "latest": "1.1.0",
+      "sha256": "b1874f2de72ea5ffc9d77a2bd571020da14d20c27a43ea11aecfe9ad5f8c6453"
     },
     {
       "id": "bobocloud.local-scm",
