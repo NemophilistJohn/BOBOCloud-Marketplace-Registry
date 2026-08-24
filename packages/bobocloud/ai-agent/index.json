@@ -10,20 +10,24 @@
       "ja": "BOBOCLOUD AI Agent"
     },
     "description": {
-      "en": "Official local workspace Agent with goal mode, Skills, structured tools, and explicit approvals.",
-      "zh-CN": "官方本地工作区 Agent，支持目标模式、Skills、结构化工具与显式审批。",
-      "ja": "ゴールモード、Skills、構造化ツール、明示的な承認に対応する公式ローカルワークスペース Agent です。"
+      "en": "Official local workspace Agent with goal mode, Skills, five reasoning levels, access policies, and context compaction.",
+      "zh-CN": "官方本地工作区 Agent，支持目标模式、Skills、五档思考强度、访问策略与上下文压缩。",
+      "ja": "ゴールモード、Skills、5段階の推論強度、アクセス方針、コンテキスト圧縮に対応する公式ローカルワークスペース Agent です。"
     },
     "categories": [
       "ai",
       "developer-tools"
     ]
   },
-  "latest": "1.0.0",
+  "latest": "1.1.0",
   "versions": {
     "1.0.0": {
       "path": "packages/bobocloud/ai-agent/versions/1.0.0.json",
       "sha256": "1c400e30b0d34ad3f2e9bb1d5e3658915cd678213abd4973c1c47c68a0de5917"
+    },
+    "1.1.0": {
+      "path": "packages/bobocloud/ai-agent/versions/1.1.0.json",
+      "sha256": "fe5348550aac295190ae43a1700d4386123b82b1440e01bc6ba35d65bc82f7b2"
     }
   }
 }
