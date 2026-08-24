@@ -3,6 +3,12 @@
   "id": "official",
   "packages": [
     {
+      "id": "bobocloud.ai-agent",
+      "path": "packages/bobocloud/ai-agent/index.json",
+      "latest": "1.0.0",
+      "sha256": "b767c8549037f6b5978eb56a4b4888c690487667a62171eafbeab8d73b5be1eb"
+    },
+    {
       "id": "bobocloud.document-preview",
       "path": "packages/bobocloud/document-preview/index.json",
       "latest": "1.1.0",
