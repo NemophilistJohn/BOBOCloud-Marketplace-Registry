@@ -5,8 +5,8 @@
     {
       "id": "bobocloud.ai-agent",
       "path": "packages/bobocloud/ai-agent/index.json",
-      "latest": "1.1.0",
-      "sha256": "88a68bb39128ad4fc88a50a0da9a85928e84d7ee883c2ee020bfc45f2e535d9b"
+      "latest": "1.2.0",
+      "sha256": "bef2d86201aecc4ab19205edaeb7ec23bd236cc49e0cbc0cc2e1ed64716f3482"
     },
     {
       "id": "bobocloud.document-preview",

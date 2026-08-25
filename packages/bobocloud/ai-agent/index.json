@@ -10,16 +10,16 @@
       "ja": "BOBOCLOUD AI Agent"
     },
     "description": {
-      "en": "Official local workspace Agent with goal mode, Skills, five reasoning levels, access policies, and context compaction.",
-      "zh-CN": "官方本地工作区 Agent，支持目标模式、Skills、五档思考强度、访问策略与上下文压缩。",
-      "ja": "ゴールモード、Skills、5段階の推論強度、アクセス方針、コンテキスト圧縮に対応する公式ローカルワークスペース Agent です。"
+      "en": "Official local workspace Agent with slash-command modes, Skills, five reasoning levels, access policies, and context compaction.",
+      "zh-CN": "官方本地工作区 Agent，支持斜杠命令模式、Skills、五档思考强度、访问策略与上下文压缩。",
+      "ja": "スラッシュコマンドのモード、Skills、5段階の推論強度、アクセス方針、コンテキスト圧縮に対応する公式ローカルワークスペース Agent です。"
     },
     "categories": [
       "ai",
       "developer-tools"
     ]
   },
-  "latest": "1.1.0",
+  "latest": "1.2.0",
   "versions": {
     "1.0.0": {
       "path": "packages/bobocloud/ai-agent/versions/1.0.0.json",
@@ -28,6 +28,10 @@
     "1.1.0": {
       "path": "packages/bobocloud/ai-agent/versions/1.1.0.json",
       "sha256": "fe5348550aac295190ae43a1700d4386123b82b1440e01bc6ba35d65bc82f7b2"
+    },
+    "1.2.0": {
+      "path": "packages/bobocloud/ai-agent/versions/1.2.0.json",
+      "sha256": "e1e2550ef822418266ab030f30e9971695ed7b24b7565a4797ac3f4383bfd980"
     }
   }
 }
