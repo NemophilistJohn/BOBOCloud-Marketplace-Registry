@@ -5,14 +5,14 @@
     {
       "id": "bobocloud.ai-agent",
       "path": "packages/bobocloud/ai-agent/index.json",
-      "latest": "1.3.1",
-      "sha256": "a11e490b3dd25c1934aec759efb607836de051203324817524560306ef1b1e94"
+      "latest": "1.3.3",
+      "sha256": "1261ad4dce33853522e3b0b7a18518ff88c4a51a67d702ccd6364b692e5ee88a"
     },
     {
       "id": "bobocloud.document-preview",
       "path": "packages/bobocloud/document-preview/index.json",
-      "latest": "1.1.0",
-      "sha256": "b1874f2de72ea5ffc9d77a2bd571020da14d20c27a43ea11aecfe9ad5f8c6453"
+      "latest": "1.1.1",
+      "sha256": "cdefc6996cfc8f204b7cae3f51c850290f07b573ecc466c2da7f090d5a35d9f2"
     },
     {
       "id": "bobocloud.local-scm",

@@ -14,6 +14,7 @@ packages/<publisher>/<name>/index.json          One package and its version map
 packages/<publisher>/<name>/versions/<v>.json   Immutable release descriptor
 schemas/                                        JSON Schema references
 scripts/validate-registry.mjs                   Structural and digest verifier
+tests/                                          Offline validator regressions
 ```
 
 The root file deliberately stays small. A publication updates exactly one
@@ -24,10 +25,12 @@ a new semantic version.
 ## Publishing Rules
 
 - Package IDs use a lowercase `publisher.name` namespace.
+- Version keys use canonical SemVer, and `latest` is the highest indexed SemVer value.
 - Every artifact uses the approved `raw.githubusercontent.com` HTTPS host and a SHA-256 digest.
 - Package indexes pin each version descriptor by digest.
 - Shards pin each package index by digest, and the root pins each shard.
-- `scripts/validate-registry.mjs` must pass before a change is merged.
+- Run `npm ci` and `npm run verify` before a change is merged. Validation reads only
+  the checked-out Registry; it does not fetch plugin artifacts.
 
 ## BOBOCloud 插件市场索引
 

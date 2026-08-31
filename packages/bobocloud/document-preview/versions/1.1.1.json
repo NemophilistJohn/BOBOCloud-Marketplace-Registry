@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bobocloud.document-preview",
+  "version": "1.1.1",
+  "publishedAt": "2026-09-01T01:16:42+08:00",
+  "engines": {
+    "bobocloud": ">=2.6.1 <3.0.0",
+    "pluginApi": "^1.3.0"
+  },
+  "artifact": {
+    "format": "boboplugin",
+    "url": "https://raw.githubusercontent.com/NemophilistJohn/bobocloud-document-preview/v1.1.1/artifacts/bobocloud.document-preview-1.1.1.boboplugin",
+    "sha256": "bbdd2b24a98ee75a8721f070b525bf93e8ec7370c7267139539a1d979e00df64",
+    "size": 832473
+  },
+  "source": {
+    "repository": "https://github.com/NemophilistJohn/bobocloud-document-preview",
+    "ref": "v1.1.1"
+  },
+  "permissions": [
+    "documentViews.register",
+    "documents.read"
+  ],
+  "locales": [
+    "en",
+    "zh-CN",
+    "ja"
+  ]
+}

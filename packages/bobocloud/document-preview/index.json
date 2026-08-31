@@ -19,7 +19,7 @@
       "productivity"
     ]
   },
-  "latest": "1.1.0",
+  "latest": "1.1.1",
   "versions": {
     "1.0.1": {
       "path": "packages/bobocloud/document-preview/versions/1.0.1.json",
@@ -28,6 +28,10 @@
     "1.1.0": {
       "path": "packages/bobocloud/document-preview/versions/1.1.0.json",
       "sha256": "5ca2cf57caabff024457387421810792ad03f6bd39a28a4579215a0c08366e79"
+    },
+    "1.1.1": {
+      "path": "packages/bobocloud/document-preview/versions/1.1.1.json",
+      "sha256": "ff5ef62166d0611423bf0208e351cf33e9f6c17358e5e735f9ffc5afdddfea55"
     }
   }
 }
