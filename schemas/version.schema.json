@@ -7,12 +7,16 @@
   "properties": {
     "schemaVersion": { "const": 1 },
     "id": { "type": "string", "pattern": "^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" },
-    "version": { "type": "string", "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-[0-9A-Za-z.-]+)?$" },
+    "version": { "type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-(?:(?:0|[1-9][0-9]*|[0-9]*[A-Za-z-][0-9A-Za-z-]*)(?:\\.(?:0|[1-9][0-9]*|[0-9]*[A-Za-z-][0-9A-Za-z-]*))*))?(?:\\+[0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*)?$" },
     "publishedAt": { "type": "string", "format": "date-time" },
     "engines": {
       "type": "object",
       "required": ["bobocloud", "pluginApi"],
-      "additionalProperties": { "type": "string" }
+      "properties": {
+        "bobocloud": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "pluginApi": { "type": "string", "minLength": 1, "maxLength": 160 }
+      },
+      "additionalProperties": false
     },
     "artifact": {
       "type": "object",
