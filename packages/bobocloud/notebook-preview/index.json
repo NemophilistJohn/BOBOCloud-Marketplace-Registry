@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bobocloud.notebook-preview",
+  "publisher": "bobocloud",
+  "name": "notebook-preview",
+  "summary": {
+    "displayName": {
+      "en": "Notebook Preview",
+      "zh-CN": "Notebook 预览",
+      "ja": "Notebook プレビュー"
+    },
+    "description": {
+      "en": "Read-only Jupyter Notebook preview with Markdown, math, and saved outputs.",
+      "zh-CN": "只读预览 Jupyter Notebook，支持 Markdown、公式及已保存的输出。",
+      "ja": "Markdown、数式、保存済みの出力に対応した読み取り専用の Jupyter Notebook プレビュー。"
+    },
+    "categories": [
+      "document-preview",
+      "productivity"
+    ]
+  },
+  "latest": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "path": "packages/bobocloud/notebook-preview/versions/1.0.0.json",
+      "sha256": "8ed2ed43afefe6a68d4cc8e0d0e907e021ca310ace9b4052e6cec5d69b3c02fd"
+    }
+  }
+}

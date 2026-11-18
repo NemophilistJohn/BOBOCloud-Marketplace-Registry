@@ -76,7 +76,7 @@ async function mutateVersionDescriptor(root, packageId, version, mutate) {
 }
 
 test('the committed registry passes strict offline validation', async () => {
-  assert.equal(await validateRegistry(repositoryRoot), 3);
+  assert.equal(await validateRegistry(repositoryRoot), 4);
 });
 
 test('numeric prerelease identifiers with leading zeroes are rejected', async (t) => {

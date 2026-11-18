@@ -19,6 +19,12 @@
       "path": "packages/bobocloud/local-scm/index.json",
       "latest": "1.2.1",
       "sha256": "7d6d1e67b311a7ca3388f664ab9b295dfdad125ce68cba351734d2227ba02969"
+    },
+    {
+      "id": "bobocloud.notebook-preview",
+      "path": "packages/bobocloud/notebook-preview/index.json",
+      "latest": "1.0.0",
+      "sha256": "9093ddad04366174d99107bbcc61852cae90bbcd1fad072ee14922b22adb3687"
     }
   ]
 }
