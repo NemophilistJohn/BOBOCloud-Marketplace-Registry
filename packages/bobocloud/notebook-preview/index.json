@@ -10,16 +10,16 @@
       "ja": "Notebook プレビュー"
     },
     "description": {
-      "en": "Open and edit Jupyter notebooks, with offline Markdown, math, saved outputs and optional Python completion.",
-      "zh-CN": "打开和编辑 Jupyter Notebook，离线查看 Markdown、公式和已有输出，可启用 Python 补全。",
-      "ja": "Jupyter Notebook を開いて編集。Markdown、数式、保存済み出力のオフライン表示と Python 補完に対応。"
+      "en": "Open and edit Jupyter notebooks with a cell outline and offline Markdown, math, and saved outputs.",
+      "zh-CN": "打开和编辑 Jupyter Notebook，使用单元格大纲导航，离线查看 Markdown、公式和已有输出。",
+      "ja": "Jupyter Notebook を開いて編集。セルのアウトラインと、Markdown、数式、保存済み出力のオフライン表示に対応。"
     },
     "categories": [
       "document-preview",
       "productivity"
     ]
   },
-  "latest": "1.1.0",
+  "latest": "1.2.0",
   "versions": {
     "1.0.0": {
       "path": "packages/bobocloud/notebook-preview/versions/1.0.0.json",
@@ -36,6 +36,10 @@
     "1.1.0": {
       "path": "packages/bobocloud/notebook-preview/versions/1.1.0.json",
       "sha256": "9fd63c106a7cfb63c6d2bc784bc7283294df24e7bc94220d9745db4212346b49"
+    },
+    "1.2.0": {
+      "path": "packages/bobocloud/notebook-preview/versions/1.2.0.json",
+      "sha256": "c2fb11cb63645992ec36a64820017c7839f7c40edbf4612868d8a26fe8cd089f"
     }
   }
 }
