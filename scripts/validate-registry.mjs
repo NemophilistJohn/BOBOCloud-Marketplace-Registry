@@ -13,7 +13,7 @@ const maxArtifactBytes = 32 * 1024 * 1024;
 const knownPermissions = new Set([
   'commands.register', 'commands.execute', 'contributions.register', 'services.read',
   'sourceControl.register', 'scm.git.read', 'scm.git.write', 'fileDecorations.scm',
-  'documentViews.register', 'documents.read', 'agents.register', 'models.generate',
+  'documentViews.register', 'documents.read', 'documents.write', 'documents.analyze', 'agents.register', 'models.generate',
   'workspace.read', 'workspace.write', 'process.execute', 'skills.read', 'storage.local'
 ]);
 let schemaValidatorsPromise;
