@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bobocloud.notebook-preview",
+  "version": "1.0.2",
+  "publishedAt": "2026-11-18T13:09:04Z",
+  "engines": {
+    "bobocloud": ">=2.8.1 <2.9.0",
+    "pluginApi": "^1.6.0"
+  },
+  "artifact": {
+    "format": "boboplugin",
+    "url": "https://raw.githubusercontent.com/NemophilistJohn/BOBOCloud-Jupter-support/v1.0.2/artifacts/bobocloud.notebook-preview-1.0.2.boboplugin",
+    "sha256": "810e8c65c69a6c06ce36f6137d5bd973fd7f1c2b27e5ef117d7d159af61799ac",
+    "size": 150808
+  },
+  "source": {
+    "repository": "https://github.com/NemophilistJohn/BOBOCloud-Jupter-support",
+    "ref": "v1.0.2"
+  },
+  "permissions": [
+    "documentViews.register",
+    "documents.read",
+    "sourceControl.register"
+  ],
+  "locales": [
+    "en",
+    "zh-CN",
+    "ja"
+  ]
+}
