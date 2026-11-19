@@ -23,8 +23,8 @@
     {
       "id": "bobocloud.notebook-preview",
       "path": "packages/bobocloud/notebook-preview/index.json",
-      "latest": "1.3.2",
-      "sha256": "3c1cc8b68139f82c645eac5294960d4385e650c483fd7513d82295132939f394"
+      "latest": "1.3.3",
+      "sha256": "3e3d986f34e4f3fd6b7b53dbbde03f5ed5bfbb7a0460af4a2899bbbb6bcd26ee"
     }
   ]
 }
