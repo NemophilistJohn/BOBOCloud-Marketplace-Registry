@@ -19,7 +19,7 @@
       "productivity"
     ]
   },
-  "latest": "1.3.1",
+  "latest": "1.3.2",
   "versions": {
     "1.0.0": {
       "path": "packages/bobocloud/notebook-preview/versions/1.0.0.json",
@@ -48,6 +48,10 @@
     "1.3.1": {
       "path": "packages/bobocloud/notebook-preview/versions/1.3.1.json",
       "sha256": "8f43c2b8e50b1c9395ef8e4cfca1d76233369fc1ec077c6ee9b0d0a921ac5e76"
+    },
+    "1.3.2": {
+      "path": "packages/bobocloud/notebook-preview/versions/1.3.2.json",
+      "sha256": "e4ea411b5daefe3ef53d3dc8680d97250ebf85c25def5008b43fddef8c5dcf71"
     }
   }
 }
