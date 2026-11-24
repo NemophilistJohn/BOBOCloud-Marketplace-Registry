@@ -18,7 +18,7 @@
       "source-control"
     ]
   },
-  "latest": "3.0.0",
+  "latest": "3.0.1",
   "versions": {
     "1.0.0": {
       "path": "packages/bobocloud/local-scm/versions/1.0.0.json",
@@ -51,6 +51,10 @@
     "3.0.0": {
       "path": "packages/bobocloud/local-scm/versions/3.0.0.json",
       "sha256": "ce4d0219cb1cb1393d10549484d5e9f961160fe30e019950950052f415933e31"
+    },
+    "3.0.1": {
+      "path": "packages/bobocloud/local-scm/versions/3.0.1.json",
+      "sha256": "f2b8e7876163ff5d70e18801dedd59ff09217b70951f670ffd8e4349603ed532"
     }
   }
 }
