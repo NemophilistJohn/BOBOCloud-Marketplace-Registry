@@ -10,15 +10,15 @@
       "ja": "BOBOCloud ローカルソース管理"
     },
     "description": {
-      "en": "Official local-workspace source-control integration.",
-      "zh-CN": "官方本地工作区源代码管理集成。",
-      "ja": "公式のローカルワークスペース用ソース管理統合です。"
+      "en": "Local Git with remote context and feedback; patch preview requires Plugin API 1.11.",
+      "zh-CN": "本地 Git、远端信息与操作反馈；差异预览需要插件 API 1.11。",
+      "ja": "ローカル Git とリモート情報、操作結果。差分プレビューには API 1.11 が必要です。"
     },
     "categories": [
       "source-control"
     ]
   },
-  "latest": "1.2.1",
+  "latest": "2.0.0",
   "versions": {
     "1.0.0": {
       "path": "packages/bobocloud/local-scm/versions/1.0.0.json",
@@ -39,6 +39,10 @@
     "1.2.1": {
       "path": "packages/bobocloud/local-scm/versions/1.2.1.json",
       "sha256": "320a5e1bcc1c1b7d2cda19354661e73471209ff807e733896d1e4530e09348de"
+    },
+    "2.0.0": {
+      "path": "packages/bobocloud/local-scm/versions/2.0.0.json",
+      "sha256": "8dc3c840aa09c315598535d280f75db41af0fd0dfecb26e33a0f50a9b249bf99"
     }
   }
 }
