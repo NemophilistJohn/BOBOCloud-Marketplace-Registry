@@ -10,15 +10,15 @@
       "ja": "BOBOCloud ローカルソース管理"
     },
     "description": {
-      "en": "Local Git with remote context and feedback; patch preview requires Plugin API 1.11.",
-      "zh-CN": "本地 Git、远端信息与操作反馈；差异预览需要插件 API 1.11。",
-      "ja": "ローカル Git とリモート情報、操作結果。差分プレビューには API 1.11 が必要です。"
+      "en": "A compact remote-card workspace with local changes, a vertical Git graph and guarded multi-remote push. Requires Plugin API 1.12.",
+      "zh-CN": "紧凑的远端卡片工作区，提供本地更改、纵向 Git 提交图和安全多远端推送。需要插件 API 1.12。",
+      "ja": "コンパクトなリモートカード、ローカル変更、縦型 Git 履歴と安全な複数リモートへのプッシュ。API 1.12 が必要です。"
     },
     "categories": [
       "source-control"
     ]
   },
-  "latest": "2.0.1",
+  "latest": "3.0.0",
   "versions": {
     "1.0.0": {
       "path": "packages/bobocloud/local-scm/versions/1.0.0.json",
@@ -47,6 +47,10 @@
     "2.0.1": {
       "path": "packages/bobocloud/local-scm/versions/2.0.1.json",
       "sha256": "229608050fa5143b04cdcc08acc07cc10946a062118f886b8f6c5fb3694462a7"
+    },
+    "3.0.0": {
+      "path": "packages/bobocloud/local-scm/versions/3.0.0.json",
+      "sha256": "ce4d0219cb1cb1393d10549484d5e9f961160fe30e019950950052f415933e31"
     }
   }
 }
