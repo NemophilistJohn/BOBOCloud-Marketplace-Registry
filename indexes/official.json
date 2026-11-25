@@ -5,20 +5,20 @@
     {
       "id": "bobocloud.ai-agent",
       "path": "packages/bobocloud/ai-agent/index.json",
-      "latest": "1.3.3",
-      "sha256": "1261ad4dce33853522e3b0b7a18518ff88c4a51a67d702ccd6364b692e5ee88a"
+      "latest": "1.4.1",
+      "sha256": "2c79d15eae98ae75993e9b0dbd98892b93bede0a3bba16122720dd7ba187a3d9"
     },
     {
       "id": "bobocloud.document-preview",
       "path": "packages/bobocloud/document-preview/index.json",
-      "latest": "1.1.1",
-      "sha256": "cdefc6996cfc8f204b7cae3f51c850290f07b573ecc466c2da7f090d5a35d9f2"
+      "latest": "1.1.2",
+      "sha256": "94651cc892d108738a64bd2bd0a84e871d6c0c0b5d670ee0466076a37ba1aa1d"
     },
     {
       "id": "bobocloud.local-scm",
       "path": "packages/bobocloud/local-scm/index.json",
-      "latest": "3.0.2",
-      "sha256": "4cc544c2409f9c8e6f7da7c6fe65e7672359f3831919049a34005417e22ce21e"
+      "latest": "3.0.3",
+      "sha256": "9d0500aa52914e9cbbf8235859438e9d21ab19090b99516303e72d119ebe8908"
     },
     {
       "id": "bobocloud.notebook-preview",

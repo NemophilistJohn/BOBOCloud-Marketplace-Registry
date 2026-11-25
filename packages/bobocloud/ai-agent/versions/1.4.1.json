@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bobocloud.ai-agent",
+  "version": "1.4.1",
+  "publishedAt": "2026-11-25T18:45:28Z",
+  "engines": {
+    "bobocloud": ">=2.8.1 <5.0.0",
+    "pluginApi": "^1.5.0"
+  },
+  "artifact": {
+    "format": "boboplugin",
+    "url": "https://raw.githubusercontent.com/NemophilistJohn/BOBOCloud-AI-Agent-plugin-offical/v1.4.1/artifacts/bobocloud.ai-agent-1.4.1.boboplugin",
+    "sha256": "f1dec2f64fad55f3e46011b9422d0f2d5bd11d131cbee69946f25a48a46cb701",
+    "size": 32831
+  },
+  "source": {
+    "repository": "https://github.com/NemophilistJohn/BOBOCloud-AI-Agent-plugin-offical",
+    "ref": "v1.4.1"
+  },
+  "permissions": [
+    "commands.register",
+    "agents.register",
+    "models.generate",
+    "workspace.read",
+    "workspace.write",
+    "process.execute",
+    "skills.read",
+    "storage.local"
+  ],
+  "locales": [
+    "en",
+    "zh-CN",
+    "ja"
+  ]
+}

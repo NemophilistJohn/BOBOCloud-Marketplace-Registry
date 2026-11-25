@@ -19,7 +19,7 @@
       "developer-tools"
     ]
   },
-  "latest": "1.3.3",
+  "latest": "1.4.1",
   "versions": {
     "1.0.0": {
       "path": "packages/bobocloud/ai-agent/versions/1.0.0.json",
@@ -44,6 +44,10 @@
     "1.3.3": {
       "path": "packages/bobocloud/ai-agent/versions/1.3.3.json",
       "sha256": "89e5a47690ab1cb25209971b8c9eefec9f4f9cda8400a2300846f2826c6d199e"
+    },
+    "1.4.1": {
+      "path": "packages/bobocloud/ai-agent/versions/1.4.1.json",
+      "sha256": "27e99a43e6c0cd18e4a7901703947d1f40fcec18b59f87f3d29ed2bc74b3f215"
     }
   }
 }
